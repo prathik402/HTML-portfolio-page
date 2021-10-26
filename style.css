@@ -1,0 +1,24 @@
+h1 {color:brown}
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end
+}
+.site-description{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: first baseline
+}
+p,h2{
+    text-align: center;
+}
